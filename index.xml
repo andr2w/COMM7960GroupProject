@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>COMM7960 AI for Interactive Media Design Group Project - Yifeng LUO</title>
+    <link>https://andr2w.github.io/COMM7960GroupProject/</link>
+    <description>Recent content on COMM7960 AI for Interactive Media Design Group Project - Yifeng LUO</description>
+    <image>
+      <title>COMM7960 AI for Interactive Media Design Group Project - Yifeng LUO</title>
+      <url>https://andr2w.github.io/COMM7960GroupProject/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andr2w.github.io/COMM7960GroupProject/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <atom:link href="https://andr2w.github.io/COMM7960GroupProject/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conclusion</title>
+      <link>https://andr2w.github.io/COMM7960GroupProject/conclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andr2w.github.io/COMM7960GroupProject/conclusion/</guid>
+      <description>Take Away Messages Considering the propagation informaiton of the fake news video. Considering the LLMs into the fake news video detection, transforming classification tasks into generation tasks, LLMs can offer interpretability for many classical classification tasks. </description>
+    </item>
+    <item>
+      <title>Experiment</title>
+      <link>https://andr2w.github.io/COMM7960GroupProject/experiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andr2w.github.io/COMM7960GroupProject/experiment/</guid>
+      <description>Dataset There is only one fake news video detection dataset that contains the social context informaiton, that is FakeSV [1]. The FakeSV dataset contains the fake and real news videos from a popular Chinese short video platforom douyin. The FakeSV dataset consists of 1,827 fake news videos and 1,827 real news video. The following table shows the statiscs of the FakeSV dataset.
+Fake News Video Real News Video 1,827 1,827 Evauluation Metrics We utilize the following metrics to evaluate the performance in our pre-experiments.</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>https://andr2w.github.io/COMM7960GroupProject/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andr2w.github.io/COMM7960GroupProject/introduction/</guid>
+      <description>Motivation Short video platforms have boosted the spreading of fake news videos. Compared with tradtional social media platforms, fake news video propagating in short video platforms is more likely to be trusted by normal users [1] [2].
+Defintion of Fake News Video Following previous studies [1] [3], we define a fake news video as a video post that conveys false, inaccurate, or misleading information. Note that a video post may include not only the video itself, see following Figure.</description>
+    </item>
+    <item>
+      <title>Methodology</title>
+      <link>https://andr2w.github.io/COMM7960GroupProject/methodology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andr2w.github.io/COMM7960GroupProject/methodology/</guid>
+      <description>We will dive into the SVFEND fake news video detection method proposed in [1]. The following Fig. shows the overall structure of SVFEND.
+Feature Extraction Audio features are extracted by VGGish. Keyframes/image features are extracted by the pre-trained VGG19. Video Clips are extracted by the C3D. All the textual features (title, transcript, comments, and user profile) are extracted by the pre-trained Bert. Multimodal Feature Fusion Modalities are fused pairwise using the two-stream co-attention transformer [2].</description>
+    </item>
+    <item>
+      <title>Problem Defintion</title>
+      <link>https://andr2w.github.io/COMM7960GroupProject/problem-definition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andr2w.github.io/COMM7960GroupProject/problem-definition/</guid>
+      <description>Existing literature formulates the fake news video detection as a binary classification task.
+Let $\mathcal{V}$ and $\mathcal{S}$ denote a video post and the attached social context, respectively. Video post $\mathcal{V}$: title and description $t$, video $v$, and audio $a$. Social context $\mathcal{S}$: User profile $p$: a set of features to describe the uploader account, such as IP address and follower count. User engagement $e$: comments, the number of videos, and likes.</description>
+    </item>
+    <item>
+      <title>Related Works</title>
+      <link>https://andr2w.github.io/COMM7960GroupProject/related-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andr2w.github.io/COMM7960GroupProject/related-works/</guid>
+      <description>To detect fake news videos, a better approach is to first understand how the fake news video is produced. Existing literature [1] analysis fake news videos and detect fake news videos from three levels:
+Signal level, Semantic level, Intent level. Signal Level Fake news videos often contain manipulated or generated video and audio content. The manipulated or generated video and audio content refers to the following two operations:
+Editing: visual alterations on existing data of video and audio modality.</description>
+    </item>
+  </channel>
+</rss>

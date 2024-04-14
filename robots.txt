@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://andr2w.github.io/COMM7960GroupProject/sitemap.xml
